@@ -42,3 +42,39 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+
+.banana {
+  background-size: 50%; 
+  background-repeat: no-repeat;
+  background-image: url('dancers/banana_dance.gif');
+  border: none;
+}
+
+.peanut {
+  background-size: 50%; 
+  background-repeat: no-repeat;
+  background-image: url('dancers/peanut_dance.gif');
+  border: none;
+}
+
+.pepe {
+  background-size: 50%; 
+  background-repeat: no-repeat;
+  background-image: url('dancers/pepe_dance.gif');
+  border: none;
+}
+
+.pet-detective {
+  background-size: 50%; 
+  background-repeat: no-repeat;
+  background-image: url('dancers/pet_detective_dance.gif');
+  border: none;
+}
+
+.shark {
+  background-size: 50%; 
+  background-repeat: no-repeat;
+  background-image: url('dancers/shark_dance.gif');
+  border: none;
+}
+
