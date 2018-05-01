@@ -1,6 +1,6 @@
 var makePetDetectiveDancer = function(top, left, timeBetweenSteps) {
   makeDancer.call(this, top, left, timeBetweenSteps);
-    $(this.$node).addClass('pet-detective');
+    $(this.$node).addClass('gif pet-detective');
     $(this.$node).css({"width":"182.5px", "height":"180px"});
 };
 

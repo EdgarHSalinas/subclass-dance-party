@@ -43,38 +43,29 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 
-.banana {
+.gif {
   background-size: 50%; 
   background-repeat: no-repeat;
-  background-image: url('dancers/banana_dance.gif');
   border: none;
+}
+
+.banana {
+  background-image: url('dancers/banana_dance.gif');
 }
 
 .peanut {
-  background-size: 50%; 
-  background-repeat: no-repeat;
   background-image: url('dancers/peanut_dance.gif');
-  border: none;
 }
 
 .pepe {
-  background-size: 50%; 
-  background-repeat: no-repeat;
   background-image: url('dancers/pepe_dance.gif');
-  border: none;
 }
 
 .pet-detective {
-  background-size: 50%; 
-  background-repeat: no-repeat;
   background-image: url('dancers/pet_detective_dance.gif');
-  border: none;
 }
 
 .shark {
-  background-size: 50%; 
-  background-repeat: no-repeat;
   background-image: url('dancers/shark_dance.gif');
-  border: none;
 }
 

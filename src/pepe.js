@@ -1,6 +1,6 @@
 var makePepeDancer = function(top, left, timeBetweenSteps) {
   makeDancer.call(this, top, left, timeBetweenSteps);
-    $(this.$node).addClass('pepe');
+    $(this.$node).addClass('gif pepe');
     $(this.$node).css({"width":"182.5px", "height":"180px"});
 };
 

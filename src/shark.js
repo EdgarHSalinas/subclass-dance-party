@@ -1,6 +1,6 @@
 var makeSharkDancer = function(top, left, timeBetweenSteps) {
   makeDancer.call(this, top, left, timeBetweenSteps);
-    $(this.$node).addClass('shark');
+    $(this.$node).addClass('gif shark');
     $(this.$node).css({"width":"182.5px", "height":"180px"});
 };
 
