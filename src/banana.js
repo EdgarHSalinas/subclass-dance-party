@@ -8,5 +8,5 @@ makeBananaDancer.prototype = Object.create(makeDancer.prototype);
 makeBananaDancer.prototype.constructor = makeBananaDancer;
 makeBananaDancer.prototype.step = function() {
 makeDancer.prototype.step.call(this);
-  // this.$node.toggleClass('otherSlide');
+  
 };

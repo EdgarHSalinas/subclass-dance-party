@@ -31,16 +31,11 @@ body, a:link, a:visited, a:active{
 .oneSlide {
   transition: transform 1s ease-in-out;
   transform: translate(30%);
-  border:10px solid green;
-  border-radius:10px;
-  position:absolute;
+  border:10px solid #05535d;
 }
 
 .otherSlide {
   transform: translate(150%);
-  border:10px solid green;
-  border-radius:10px;
-  position:absolute;
 }
 
 .gif {
