@@ -1,12 +1,12 @@
-var makePeanutDancer = function(top, left, timeBetweenSteps) {
-  makeDancer.call(this, top, left, timeBetweenSteps);
+var PeanutDancer = function(top, left, timeBetweenSteps) {
+  Dancer.call(this, top, left, timeBetweenSteps);
     $(this.$node).addClass('gif peanut');
     $(this.$node).css({"width":"182.5px", "height":"180px"});
 };
 
-makePeanutDancer.prototype = Object.create(makeDancer.prototype);
-makePeanutDancer.prototype.constructor = makePeanutDancer;
-makePeanutDancer.prototype.step = function() {
-makeDancer.prototype.step.call(this);
+PeanutDancer.prototype = Object.create(Dancer.prototype);
+PeanutDancer.prototype.constructor = PeanutDancer;
+PeanutDancer.prototype.step = function() {
+Dancer.prototype.step.call(this);
   
 };

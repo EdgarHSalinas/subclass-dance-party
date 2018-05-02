@@ -11,18 +11,40 @@ body{
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
-  padding:5px 12px;
-  float:right;
+
+a {
+  text-decoration: none;
 }
+
+.title, .addDancerButton, .lineUpButton {
+  padding: 5px 12px;
+  float: right;
+  border: 2px solid #add8e6;
+  border-radius: 20px;
+  margin-right: 7px;
+  margin-bottom: 3px;
+  height: 26%
+}
+
+.lineUpButton {
+  position: relative;
+  right: 700px;
+}
+
+.addDancerButton:active {
+  background-color: #333;
+}
+
 .topbar{
-  height:32px;
+  height:64px;
   background-color: #555;
 }
 .title{
   background-color: #777;
 }
+
 .dancer{
+  z-index: -1;
   border:10px solid red;
   border-radius:10px;
   position:absolute;

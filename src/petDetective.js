@@ -1,12 +1,12 @@
-var makePetDetectiveDancer = function(top, left, timeBetweenSteps) {
-  makeDancer.call(this, top, left, timeBetweenSteps);
+var PetDetectiveDancer = function(top, left, timeBetweenSteps) {
+  Dancer.call(this, top, left, timeBetweenSteps);
     $(this.$node).addClass('gif pet-detective');
-    $(this.$node).css({"width":"182.5px", "height":"180px"});
+    $(this.$node).css({"width":"365", "height":"360px"});
 };
 
-makePetDetectiveDancer.prototype = Object.create(makeDancer.prototype);
-makePetDetectiveDancer.prototype.constructor = makePetDetectiveDancer;
-makePetDetectiveDancer.prototype.step = function() {
-makeDancer.prototype.step.call(this);
+PetDetectiveDancer.prototype = Object.create(Dancer.prototype);
+PetDetectiveDancer.prototype.constructor = PetDetectiveDancer;
+PetDetectiveDancer.prototype.step = function() {
+Dancer.prototype.step.call(this);
   
 };
